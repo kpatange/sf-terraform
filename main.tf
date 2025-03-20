@@ -8,15 +8,15 @@ terraform {
 
 # A simple configuration of the provider with a default authentication.
 # A default value for `authenticator` is `snowflake`, enabling authentication with `user` and `password`.
-provider "snowflake" {
-  organization_name = "VOLVOCARS" # required if not using profile. Can also be set via SNOWFLAKE_ORGANIZATION_NAME env var
-  account_name      = "SANDBOX" # required if not using profile. Can also be set via SNOWFLAKE_ACCOUNT_NAME env var
-  user              = "SBX_EDWSINK_ADMIN_USR" # required if not using profile or token. Can also be set via SNOWFLAKE_USER env var
-  password          = "96754YjDChTVX9s"
-  preview_features_enabled = ["snowflake_database_datasource","snowflake_storage_integration_resource","snowflake_stage_resource"]
-  warehouse = "DEV_ADMIN_ANALYST_WHS"
-  role      = "CLD-SNOWFLAKE-SANDBOX-DEV-ADMIN-DEVOPS-SG"
-}
+#provider "snowflake" {
+#  organization_name = "VOLVOCARS" # required if not using profile. Can also be set via SNOWFLAKE_ORGANIZATION_NAME env var
+#  account_name      = "SANDBOX" # required if not using profile. Can also be set via SNOWFLAKE_ACCOUNT_NAME env var
+#  user              = "SBX_EDWSINK_ADMIN_USR" # required if not using profile or token. Can also be set via SNOWFLAKE_USER env var
+#  password          = "96754YjDChTVX9s"
+#  preview_features_enabled = ["snowflake_database_datasource","snowflake_storage_integration_resource","snowflake_stage_resource"]
+#  warehouse = "DEV_ADMIN_ANALYST_WHS"
+#  role      = "CLD-SNOWFLAKE-SANDBOX-DEV-ADMIN-DEVOPS-SG"
+#}
 
 
 
